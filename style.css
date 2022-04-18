@@ -12,13 +12,14 @@ body {
     color: white;
     background-color: black;
     display: flex;
-    height: 80px;
+    /* height: 80px; */
+    justify-content: space-evenly;
     align-items: center;
     width: auto;
 }
 
 .nav-links {
-    width: 100%;
+    /* width: 100%; */
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -32,19 +33,15 @@ body {
 }
 
 .nav_title {
-    margin-left: 200px;
-    margin-right: 40px;
     font-size: 32px;
 }
 
 .sign_out_btn {
-    height: 40px;
-    width: 220px;
     background-color: rgb(78, 192, 230);
     color: #ffffff;
     border: none;
     font-size: 21px;
-    margin-right: 300px;
+    padding: 7px 17px;
     text-decoration: none;
     list-style: none;
 }
@@ -74,18 +71,21 @@ body {
     background-color: white;
     margin-left: 15px;
     display: block;
-    position: relative;
-    bottom: 35px;
     align-items: center;
 }
 
 .offset_profile_picture {
     display: flex;
-    position: relative;
-    bottom: 35px;
-    left: 10px;
     align-items: center;
+    border-top: 70px solid rgb(11, 141, 247)
 }
+
+    .offset_profile_picture img {
+        height: 60px;
+        width: 60px;;
+        margin-top: -30px;
+        border-radius: 5px;
+    }
 
 .profile_graphics {
     display: flex;
@@ -164,9 +164,10 @@ body {
     background-color: black;
 }
 
-.connection-requests h3 {
+.connection-requests p {
     padding: 5px;
     color: white;
+    font-size:24px;
 }
 
 .connect {
@@ -196,18 +197,28 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-}
-
-.profile-requests p {
+    justify-content: space-around;
     font-size: 26px;
-    margin-left: 12px;
-    margin-right: 110px;
-    display: flex;
 }
+    .profile-requests img {
+        height: 32px;
+        width: 32px;
+    }
 
+
+.profile-graphics img {
+    width:10px;
+    height:10px;
+    margin-right:6px;
+}
 .connection-styling {
     border: 2px solid lightgray;
 }
+
+    .connection-styling img {
+        height: 32px;
+        width: 32px;
+    }
 
 .connection-list {
     display: flex;
@@ -218,7 +229,17 @@ body {
     margin-top: 10px;
 }
 
-.checkximg {
-    float: right;
-    margin-left: 20px;
+
+#play{
+    border-top: 60px solid green;
+}
+
+    #play img{
+        margin-top: -35px;
+        height: 60px;
+        width: 60px;
+    }
+
+#name {
+    font-size: 26px;
 }
