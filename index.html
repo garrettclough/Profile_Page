@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Container -->
+    <div class="navigation-container">
+    <!-- Navigation Bar -->
+        <div class="navigation-bar">
+            <h1 class="nav_title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button class="sign_out_btn">Sign Out</button>
+        </div>
+    </div>
+    <!-- 2 Column Container -->
+    <div class="column-container">
+    <!-- Column 1 | Profile Page + Education Blocks -->
+    <div class="column1">
+        <!-- User Card -->
+        <div class="user_card">
+            <div class="header"></div>
+                <span class="offset_profile_picture"><img src="user-circle.png" width="60" height="60" alt=""></span>
+            <div class="profile">
+                <h1>Jane Doe</h1>
+                <span class="profile_graphics"><img src="map-marker.png" width="10" height="10" style="margin-right:6px;" alt="">Seattle</span>
+                <p>Developer | Engineer | Master Problem Solver</p>
+                <p>Master of shadows and the Internet!</p>
+                <span class="profile_graphics"><img src="gear.png" width="10" height="10" style="margin-right:6px;" alt=""><a href="">edit profile</a></span>
+            </div>
+        </div>
+        <!-- Education Details -->
+        <div class="edu">
+            <h3 class="title">Education</h3>
+            <div class="edu-details">
+                <h4>Coding Dojo - Full Stack</h4>
+                <p id="date">Dec 2019 - March 2020</p>
+                <p>Triple black belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+    </div>
+    <!-- Column 2 | Connection Requests + Connections -->
+    <div class="column2">
+        <!-- Container for connection request title -->
+        <div class="connection-requests">
+            <p class="request-count">3</p>
+            <h3>Connection Requests</h3>
+        </div>
+        <!-- Container for 2 profile requests -->
+        <div class="connection-styling">
+            <div class="profile-requests">
+                <img src="user-circle.png" width="32" height="32" alt="">
+                <p>Todd E</p>
+                <span class="checkximg">
+                    <img src="accept-circle.png" width="32" height="32" alt="">
+                    <img src="close-circle.png" width="32" height="32" alt="">
+                </span>
+            </div>
+            <div class="profile-requests">
+                <img src="user-circle.png" width="32" height="32" alt="">
+                <p>Phil K.</p>
+                <span class="checkximg">
+                    <img src="accept-circle.png" width="32" height="32" alt="">
+                    <img src="close-circle.png" width="32" height="32" alt="">
+                </span>
+            </div>
+        </div>
+        <!-- Container for your connection list title -->
+        <div class="connect">
+            <p class="connection-count">500+</p>
+            <h3>Your Connections</h3>
+        </div>
+        <div class="connection-styling">
+            <div class="connection-list">
+                <img src="user-circle.png" width="32" height="32" alt="">
+                <p>Adrien D</p>
+            </div>
+            <div class="connection-list">
+                <img src="user-circle.png" width="32" height="32" alt="">
+                <p>Anne J</p>
+            </div>
+            <div class="connection-list">
+                <img src="user-circle.png" width="32" height="32" alt="">
+                <p>Alayne T</p>
+            </div>
+            <div class="connection-list">
+                <img src="user-circle.png" width="32" height="32" alt="">
+                <p>Arry Y</p>
+            </div>
+            <div class="connection-more">
+                <a href="">View More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
